@@ -1,0 +1,11 @@
+package hw2;
+
+import java.io.IOException;
+import java.util.List;
+
+public interface Filter
+	{
+		public List<LogEntry> logLazer(List<LogEntry> l);
+
+		boolean accept(Object arg0) throws IOException;
+	}
