@@ -51,14 +51,12 @@
     [(symbol? sexp) (id sexp)]
     [(list? sexp)
      (case (first sexp)
-       ; Modify by parsing following into a binop
        [(+) (add (parse (second sexp))
                  (parse (third sexp)))]
               [(with) ((first (second sexp))
                             (parse (second (second sexp)))
                             (parse (third sexp)))
                       ]
-       ;modify by parsing the following to handle multiple params
        [(fun) (fun 
                (first (second sexp))
                (parse (third sexp))
