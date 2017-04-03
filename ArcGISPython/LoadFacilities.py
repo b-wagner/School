@@ -1,3 +1,5 @@
+#NOTE - remember to add functionality to select records needed for facilities
+
 # Import arcpy module
 import arcpy
 
