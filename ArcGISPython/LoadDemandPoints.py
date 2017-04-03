@@ -1,3 +1,4 @@
+#NOTE - remember to clear selection before completing this task
 
 import arcpy
 
