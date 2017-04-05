@@ -1,5 +1,3 @@
-#NOTE - remember to clear selection before completing this task
-
 import arcpy
 
 arcpy.SelectLayerByAttribute_management("BG15_Tiger_NE_SD_BA_Data_PNT", "CLEAR_SELECTION")
